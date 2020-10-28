@@ -14,6 +14,7 @@ def delete_raw_stat(delete_count):
         if deleted_row_count < 1:
             break
         time.sleep(1)
+        # commit 코드는?
 
     conn.close()
 
